@@ -1,37 +1,68 @@
+'use client';
+
 import Image from "next/image";
 import SocialLinks from "./SocialLinks";
 
 const name = "Jose Laurito";
-const title = "Chicago based Full-Stack Software Engineer";
-const job = "Senior Developer at The Spartan IT Group";
+const title = "";
+const job = "";
 
 const Hero = () => {
+  const handleDownloadCV = () => {
+    // Change this to your actual CV filename
+    const cvFileName = 'Jose_Laurito_CV.pdf';
+    const cvPath = `/${cvFileName}`;
+    
+    // Create a link element and trigger the download
+    const link = document.createElement('a');
+    link.href = cvPath;
+    link.download = cvFileName;
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
-    <div className="flex flex-col items-center gap-12 text-white lg:flex-row min-h-screen justify-center">
+    <div className="flex flex-col items-center gap-12 lg:flex-row min-h-screen justify-center text-secondary">
       <div className="relative">
         <Image
           src={"/images/profile-image.jpg"}
           alt="Jose Photo"
           width={1000}
           height={1000}
-          className="rounded-xl w-[200px] lg:w-72 z-20 relative"
+          className="rounded-xl w-[250px] lg:w-72 z-20 relative"
         />
-        <span className="absolute z-10 border-8 border-white w-full h-full top-5 left-5 rounded-xl"></span>
+        <span className="absolute z-10 border-8 border-primary w-full h-full top-5 left-5 rounded-xl"></span>
       </div>
 
       <div className="flex flex-col gap-5">
         <div className="flex flex-col gap-3">
-          <h3 className="text-3xl">Hi, my name is</h3>
-          <h1 className="text-6xl">{name}</h1>
-          <h3 className="text-xl">{title}</h3>
-          <h3 className="text-xl">and a {job}</h3>
+          <h3 className="text-2xl text-secondary">Hi, my name is</h3>
+          <h1 className="text-7xl md:text-8xl text-secondary font-bold">
+            JOSE <span className="text-primary">LAURITO</span>
+          </h1>
+          <h3 className="text-xl">
+            Chicago based{" "}
+            <span className="text-primary font-semibold">
+              Full-Stack Software Engineer
+            </span>
+          </h3>
+          <h3 className="text-xl">
+            and a{" "}
+            <span className="text-primary font-semibold">
+              Senior Developer at The Spartan IT Group
+            </span>
+          </h3>
         </div>
 
         <div className="flex gap-3 justify-evenly mt-10">
-          <button className="border rounded-full px-4 py-2 w-40">
+          <button 
+            onClick={handleDownloadCV}
+            className="rounded-full px-4 py-2 w-40 text-tertiary bg-secondary hover:bg-secondary-light"
+          >
             Download CV
           </button>
-          <button className="border rounded-full px-4 py-2 w-40">
+          <button className="rounded-full px-4 py-2 w-40 text-tertiary bg-secondary hover:bg-secondary-light">
             Contact Me
           </button>
         </div>
