@@ -7,7 +7,7 @@ const Contact = () => {
       className="grid grid-cols-4 space-y-3 gap-4 my-10 w-full max-w-[450px] mx-auto md:max-w-[800px]"
     >
       <h1 className="col-span-4 text-center text-white font-semibold text-4xl mb-5">
-        Let&#39;s Talk!
+        Let&apos;s Talk!
       </h1>
       <input
         type="text"
