@@ -6,7 +6,7 @@ import {
   TrelloIcon,
   VercelIcon,
   VSCIcon,
-} from "../Icons";
+} from '../Icons';
 
 const Devops = () => {
   return (

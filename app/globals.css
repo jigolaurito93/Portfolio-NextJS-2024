@@ -8,9 +8,10 @@
 }
 
 @font-face {
-  font-family: "Bebas Neue";
-  src: local(BebasNeue-Regular),
-    url("/public/fonts/Bebas_Neue/BebasNeue-Regular.ttf") format("truetype");
+  font-family: 'Bebas Neue';
+  src:
+    local(BebasNeue-Regular),
+    url('/public/fonts/Bebas_Neue/BebasNeue-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;

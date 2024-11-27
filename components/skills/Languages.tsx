@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import {
   CSSIcon,
   HTMLIcon,
@@ -7,7 +7,7 @@ import {
   PythonIcon,
   SupabaseIcon,
   TypescriptIcon,
-} from "../Icons";
+} from '../Icons';
 
 const Languages = () => {
   return (

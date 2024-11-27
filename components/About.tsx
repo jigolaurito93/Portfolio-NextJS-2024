@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from 'next/image';
 
 const About = () => {
   return (
@@ -7,14 +7,14 @@ const About = () => {
 
       <div className="">
         <Image
-          src={"/images/programmer.jpg"}
+          src={'/images/programmer.jpg'}
           width={300}
           height={300}
           alt=""
           className="border md:hidden mx-auto mb-10"
         />
         <Image
-          src={"/images/whiteboard.jpg"}
+          src={'/images/whiteboard.jpg'}
           width={600}
           height={600}
           alt=""

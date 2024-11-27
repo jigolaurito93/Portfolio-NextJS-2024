@@ -1,18 +1,18 @@
 'use client';
 
-import Image from "next/image";
-import SocialLinks from "./SocialLinks";
+import Image from 'next/image';
+import SocialLinks from './SocialLinks';
 
-const name = "Jose Laurito";
-const title = "";
-const job = "";
+const name = 'Jose Laurito';
+const title = '';
+const job = '';
 
 const Hero = () => {
   const handleDownloadCV = () => {
     // Change this to your actual CV filename
-    const cvFileName = 'Jose_Laurito_CV.pdf';
+    const cvFileName = 'Jose-Resume.pdf';
     const cvPath = `/${cvFileName}`;
-    
+
     // Create a link element and trigger the download
     const link = document.createElement('a');
     link.href = cvPath;
@@ -26,7 +26,7 @@ const Hero = () => {
     <div className="flex flex-col items-center gap-12 lg:flex-row min-h-screen justify-center text-secondary">
       <div className="relative">
         <Image
-          src={"/images/profile-image.jpg"}
+          src={'/images/profile-image.jpg'}
           alt="Jose Photo"
           width={1000}
           height={1000}
@@ -42,13 +42,13 @@ const Hero = () => {
             JOSE <span className="text-primary">LAURITO</span>
           </h1>
           <h3 className="text-xl">
-            Chicago based{" "}
+            Chicago based{' '}
             <span className="text-primary font-semibold">
               Full-Stack Software Engineer
             </span>
           </h3>
           <h3 className="text-xl">
-            and a{" "}
+            and a{' '}
             <span className="text-primary font-semibold">
               Senior Developer at The Spartan IT Group
             </span>
@@ -56,7 +56,7 @@ const Hero = () => {
         </div>
 
         <div className="flex gap-3 justify-evenly mt-10">
-          <button 
+          <button
             onClick={handleDownloadCV}
             className="rounded-full px-4 py-2 w-40 text-tertiary bg-secondary hover:bg-secondary-light"
           >
