@@ -49,7 +49,7 @@ const experiences = [
       'Acted as head chef when required to maintain continuity of service and quality.',
       'Responsible for inventory and ordering ingredients.',
       'Responsible for all areas of kitchen including garde manger, pastry, saute, grill and fryer.',
-      'Assisted with daily inventory, receiving and stock rotation for each station&#39;s prep work.',
+      "Assisted with daily inventory, receiving and stock rotation for each station's prep work.",
     ],
   },
 ];
