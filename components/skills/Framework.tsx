@@ -12,7 +12,7 @@ const Framework = () => {
   return (
     <div>
       <h1>Framework/Library</h1>
-      <div className="flex">
+      <div className="flex animate-loop-scroll-reverse">
         <ReactIcon />
         <FlaskIcon />
         <BootstrapIcon />

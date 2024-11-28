@@ -56,7 +56,7 @@ const experiences = [
 
 const Experience = () => {
   return (
-    <div>
+    <div className="px-12 lg:px-32 xl:px-56">
       <h1 className="text-4xl font-semibold text-center">Experience</h1>
       {experiences.map((experience, i) => {
         return (

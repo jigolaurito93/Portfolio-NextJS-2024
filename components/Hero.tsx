@@ -23,7 +23,7 @@ const Hero = () => {
   };
 
   return (
-    <div className="flex flex-col items-center gap-12 lg:flex-row min-h-screen justify-center text-secondary">
+    <div className="px-12 lg:px-32 xl:px-56 flex flex-col items-center gap-12 lg:flex-row min-h-screen justify-center text-secondary ">
       <div className="relative">
         <Image
           src={'/images/profile-image.jpg'}
