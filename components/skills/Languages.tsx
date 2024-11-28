@@ -20,7 +20,7 @@ const items = [
 ];
 
 // Function to duplicate array for animation or repeated entries
-const extendedItems = Array(3).fill(items).flat();
+const extendedItems = Array(20).fill(items).flat();
 
 // Define prop types for ItemCard
 interface ItemCardProps {
@@ -30,7 +30,7 @@ interface ItemCardProps {
 
 const ItemCard: React.FC<ItemCardProps> = ({ name, icon }) => (
   <div className="flex flex-col items-center justify-center gap-4">
-    <span className="w-20 md:w-36">{icon}</span>
+    <span className="w-20">{icon}</span>
     <span className="text-primary">{name}</span>
   </div>
 );
@@ -38,7 +38,7 @@ const ItemCard: React.FC<ItemCardProps> = ({ name, icon }) => (
 const Languages = () => {
   return (
     <div className="flex flex-col gap-6">
-      <h1 className="px-12 text-primary text-xl font-semibold">
+      <h1 className="px-12 text-white text-2xl text-center font-semibold">
         Languages/Database
       </h1>
       <div className="flex gap-6 animate-loop-scroll">
