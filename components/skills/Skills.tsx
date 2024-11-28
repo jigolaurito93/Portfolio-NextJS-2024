@@ -1,4 +1,3 @@
-import Experience from '../Experience';
 import Devops from './Devops';
 import Framework from './Framework';
 import Languages from './Languages';
@@ -12,7 +11,6 @@ const Skills = () => {
       <Languages />
       <Framework />
       <Devops />
-      <Experience />
     </div>
   );
 };

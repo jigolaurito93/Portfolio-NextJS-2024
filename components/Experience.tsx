@@ -56,23 +56,25 @@ const experiences = [
 
 const Experience = () => {
   return (
-    <div className="px-12 lg:px-32 xl:px-56">
-      <h1 className="text-4xl font-semibold text-center">Experience</h1>
+    <div className="px-12 lg:px-32 xl:px-56 my-32 flex flex-col gap-10">
+      <h1 className="text-4xl font-semibold text-center text-primary">
+        Experience
+      </h1>
       {experiences.map((experience, i) => {
         return (
-          <div key={i}>
+          <div key={i} className="flex flex-col gap-4">
             <div className="flex justify-between">
-              <h2>
+              <h2 className="text-primary-light text-2xl font-semibold">
                 {experience.company}
                 {' - '}
                 {experience.role}
               </h2>
-              <h3>{experience.date}</h3>
+              <h3 className="text-primary text-lg">{experience.date}</h3>
             </div>
             <ol>
               {experience.acc.map((ac, i) => {
                 return (
-                  <li key={i} className="list-disc">
+                  <li key={i} className="list-disc text-secondary">
                     {ac}
                   </li>
                 );
