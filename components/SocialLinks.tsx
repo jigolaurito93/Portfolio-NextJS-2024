@@ -14,7 +14,7 @@ const links = [
 
 const SocialLinks = () => {
   return (
-    <div className="fixed hidden shadow-2xl shadow-primary lg:flex flex-col lg:right-8 xl:right-20 bg-primary rounded-full gap-7 px-3 py-5">
+    <div className="absolute hidden shadow-2xl shadow-primary lg:flex flex-col lg:right-8 xl:right-20 bg-primary rounded-full gap-7 px-3 py-5">
       {links.map((link, i) => {
         const { href, icon } = link;
         return (
