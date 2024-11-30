@@ -10,6 +10,7 @@ const Contact = () => {
 
   return (
     <form
+      id="contact"
       action="https: //formspree.io/f/xrgnlooy"
       onSubmit={handleSubmit}
       method="POST"

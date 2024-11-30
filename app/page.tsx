@@ -7,7 +7,7 @@ import Skills from '@/components/skills/Skills';
 
 export default function Home() {
   return (
-    <div className="bg-[#0A1828] min-h-screen flex flex-col justify-center">
+    <div className="bg-[#0A1828] min-h-screen flex flex-col justify-center scroll-smooth overflow-y-scroll">
       <Hero />
       <About />
       <Skills />

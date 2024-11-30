@@ -56,7 +56,10 @@ const experiences = [
 
 const Experience = () => {
   return (
-    <div className="px-12 lg:px-32 xl:px-56 my-32 flex flex-col gap-10">
+    <div
+      className="px-12 lg:px-32 xl:px-56 my-32 flex flex-col gap-10 scroll-mt-24"
+      id="experience"
+    >
       <h1 className="text-4xl font-semibold text-center text-primary">
         Experience
       </h1>
