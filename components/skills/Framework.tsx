@@ -38,7 +38,7 @@ const ItemCard: React.FC<ItemCardProps> = ({ name, icon }) => (
 
 const Framework = () => {
   return (
-    <div className="flex flex-col gap-6">
+    <div className="flex flex-col gap-6 overflow-hidden">
       <h1 className="px-12  text-white text-2xl text-center font-semibold">
         Framework/Library
       </h1>
