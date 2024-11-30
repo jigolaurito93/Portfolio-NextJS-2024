@@ -1,38 +1,38 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Jose's 2024 Portfolio
 
-## Getting Started
+Welcome to my 2024 portfolio! This is a showcase of my journey as a Full-Stack Software Engineer, featuring my professional experience, technical skills, and noteworthy projects.
 
-First, run the development server:
+## Tech Stack
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This portfolio is built using:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **TypeScript**: For static typing and enhanced code reliability.
+- **Next.js**: A React-based framework for building server-rendered and statically generated web applications.
+- **Tailwind CSS**: For responsive, utility-first styling.
+- **Supabase**: As a backend database and authentication provider.
+- **Framer Motion**: For smooth animations and interactions.
+- **Vercel**: For seamless deployment and hosting.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Responsive Design**: Optimized for mobile, tablet, and desktop viewing.
+- **Dynamic Project Showcase**: Projects are displayed dynamically using TypeScript models and data sourced from Supabase.
+- **Contact Form**: Allows visitors to get in touch with me directly through a secure email submission system.
+- **Interactive Animations**: Leveraging Framer Motion for engaging transitions and effects.
+- **SEO Optimized**: Built-in support for metadata and social sharing previews.
 
-## Learn More
+## Pages
 
-To learn more about Next.js, take a look at the following resources:
+1. **Home**: An introduction and overview of my professional journey.
+2. **About**: A deeper dive into my background, skills, and passion for software engineering.
+3. **Projects**: A dynamic gallery of featured projects, including descriptions, technologies used, and links to live demos or GitHub repositories.
+4. **Skills**: A visual representation of my technical skills, categorized by expertise and proficiency.
+5. **Contact**: A secure form to reach me directly for inquiries or opportunities.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Installation and Usage
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+To run this portfolio locally:
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-
-# Portfolio-NextJS-2024
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/2024-portfolio.git
