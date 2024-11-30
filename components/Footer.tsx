@@ -17,7 +17,7 @@ const FooterLinks = [
 
 const Footer = () => {
   return (
-    <div className="flex flex-col md:flex-row gap-3 md:gap-16 items-center justify-center py-10 font-poppins text-lg text-[#BFA181]">
+    <div className="flex flex-col md:flex-row gap-3 md:gap-16 items-center justify-center py-10 font-poppins text-lg text-primary">
       <h1>&copy; Jose Laurito</h1>
       {FooterLinks.map((link, index) => (
         <Link

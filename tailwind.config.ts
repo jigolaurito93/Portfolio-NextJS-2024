@@ -37,13 +37,13 @@ const config: Config = {
       },
       colors: {
         primary: {
-          DEFAULT: 'hsl(var(--primary))',
+          DEFAULT: '#BFA181',
           light: '#D4BEA4',
           dark: '#A88460',
           foreground: 'hsl(var(--primary-foreground))',
         },
         secondary: {
-          DEFAULT: 'hsl(var(--secondary))',
+          DEFAULT: '#178582',
           light: '#1A9D99',
           dark: '#146D6A',
           foreground: 'hsl(var(--secondary-foreground))',
