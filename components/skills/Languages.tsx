@@ -30,7 +30,7 @@ interface ItemCardProps {
 
 const ItemCard: React.FC<ItemCardProps> = ({ name, icon }) => (
   <div className="flex flex-col items-center justify-center gap-4">
-    <span className="w-20">{icon}</span>
+    <span className="w-12 md:w-20">{icon}</span>
     <span className="text-primary">{name}</span>
   </div>
 );
