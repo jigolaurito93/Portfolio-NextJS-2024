@@ -25,7 +25,7 @@ const Hero = () => {
   return (
     <div
       id="home"
-      className="px-12 lg:px-32 xl:px-56 flex flex-col items-center gap-12 lg:flex-row min-h-screen justify-center text-secondary "
+      className="px-12 lg:px-32 xl:px-56 flex flex-col items-center gap-12 lg:flex-row min-h-screen justify-center text-secondary mt-20 md:mt-5 lg:mt-1 lg:gap-28"
     >
       <div className="relative">
         <Image

@@ -14,7 +14,7 @@ const Contact = () => {
       action="https: //formspree.io/f/xrgnlooy"
       onSubmit={handleSubmit}
       method="POST"
-      className="grid grid-cols-4 space-y-3 gap-4 my-10 w-full max-w-[450px] mx-auto md:max-w-[800px]"
+      className="grid px-4 grid-cols-4 space-y-3 gap-4 my-10 w-full max-w-[450px] mx-auto md:max-w-[700px] lg:max-w-[900px]"
     >
       <h1 className="col-span-4 text-center text-primary font-semibold text-4xl mb-5">
         Let&apos;s Talk!

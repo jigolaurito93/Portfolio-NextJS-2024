@@ -26,5 +26,4 @@ This portfolio is built using:
 4. **Skills**: A visual representation of my technical skills, categorized by expertise and proficiency.
 5. **Contact**: A secure form to reach me directly for inquiries or opportunities.
 
-
 ### Thank you for exploring my portfolio! If you’d like to collaborate, feel free to reach out through the contact form or connect with me on <a href="https://www.linkedin.com/in/jose-laurito/">LinkedIn<a/>.
